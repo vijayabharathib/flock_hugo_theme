@@ -1,0 +1,25 @@
+{
+    "name": "Flock_Hugo_Theme",
+    "version": "0.1.0",
+    "private": false,
+    "devDependencies": {
+        "node-sass": "^4.1.1",
+        "node-sass-import": "^1.1.1",
+        "npm-watch": "^0.1.7",
+        "testcafe": "^0.18.5"
+    },
+    "watch": {
+        "style": {
+            "patterns": [
+                "themes"
+            ],
+            "extensions": "scss",
+            "quiet": true
+        }
+    },
+    "scripts": {
+        "style": "node-sass -r themes/flock/src/scss -o themes/statue/static/css --importer node_modules/node-sass-import",
+        "watch": "npm-watch",
+        "test": "testcafe chrome test/sw_test.js"
+    }
+}

@@ -1,0 +1,8 @@
+{{ $talk := index .Site.Data.talks (.Get 0) }}
+{{ $speaker := index .Site.Data.speakers ($talk.speaker) }}
+<section>
+<header><h3>{{ $talk.title }}</h3></header>
+<p>{{ $talk.description | markdownify }}</p>
+<footer><a href="/speaker/{{- $talk.speaker -}}/">{{ $speaker.name }}</a></footer>
+</section>
+

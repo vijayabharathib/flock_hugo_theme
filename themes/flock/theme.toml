@@ -1,0 +1,21 @@
+# theme.toml template for a Hugo theme
+# See https://github.com/spf13/hugoThemes#themetoml for an example
+
+name = "Flock"
+license = "MIT"
+licenselink = "https://github.com/vijayabharathib/flock_hugo_theme/blob/master/LICENSE.md"
+description = "A theme for meetups and conferences"
+homepage = "http://flock.netlify.com/"
+tags = ["meetup","conference"]
+features = ["Offline","Mobile","Responsive"]
+min_version = "0.31"
+
+[author]
+  name = "Vijayabharathi Balasubramanian"
+  homepage = "https://www.vijayabharathi.in/"
+
+# If porting an existing theme
+[original]
+  name = "Beehive"
+  homepage = "https://beehive.netlify.com"
+  repo = "https://github.com/vijayabharathib/beehive_hugo_theme"

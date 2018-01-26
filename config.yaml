@@ -1,0 +1,23 @@
+baseURL: "https://flock.netlify.com/"
+languageCode: "en-us"
+title: "Flock Hugo Theme"
+theme: "flock"
+canonifyURLs: true
+paginate: 2
+pygmentsCodeFences: true
+pygmentsUseClasses: true
+pygmentsUseClassic: true
+menu:
+  main:
+      - Name: "about"
+        Identifier: "about"
+        URL: "/page/about/"
+        weight: 220
+
+categories: [
+  "HTML",
+]
+params:
+  description: "Lean hugo theme for easy publishing"
+  subtitle: "Lean hugo theme for easy publishing"
+

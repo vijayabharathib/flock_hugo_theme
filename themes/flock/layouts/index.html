@@ -1,0 +1,10 @@
+{{ define "main"}}
+  <div class="o-posts-list">
+    <h1>Events</h1>
+    {{ $postList := .Paginate (where .Data.Pages "Type" "event") }}
+    {{ range $postList.Pages }}
+      {{ partial "post_preview.html" . }}
+    {{ end }}
+  </div>
+  {{ partial "post_pagination.html" . }}
+{{ end }}
