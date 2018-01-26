@@ -1,14 +1,12 @@
 {{ define "main"}}
 <article role="main" class="o-post">
     <header><h1>{{ .Title }}</h1></header>
-    <p>{{ .Date.Format "January 2, 2006"}} </p>
     <div>
-        <h2>Talks</h2>
         {{ .Content }}
     </div>
-    {{ range (where .Site.Pages ".Params.venue" .Params.venue_id) }}
+    {{ range (where .Site.Pages ".Params.speaker" .Params.speaker_id) }}
     <footer>
-       Venue: <a href="{{ .URL }}">{{ .Params.name }}</a>
+       Speaker: <a href="{{ .URL }}">{{ .Params.name }}</a>
     </footer>
     {{ end }}
 </article>

@@ -10,26 +10,7 @@ $color-white-default: #fff;
 $color-green-light: #cf9;
 $color-violet-dark: #223;
 $color-grey-light: #bbc;
-
-/** fixed variables reused across other modules**/
-$color-brand: #c04;
-$color-page-background: $color-violet-dark;
-$color-text: $color-grey-light;
-$color-link: $color-green-light;
-$color-link-visited: $color-orange-light;
-$color-link-hover: $color-blue-light;
-$color-link-active: $color-blue-light;
-$color-headline: $color-text;
-
-// SASS style sheet */
-// Palette color codes */
-// Palette URL: http://paletton.com/#uid=31F0u0kpBw0fFJEkXBhv6t0wcmo */
-
-// Feel free to copy&paste color codes to your application */
-
-
-// As hex codes */
-
+/** palleteon **/
 $color-primary-0: #FFEE33;	// Main Primary color */
 $color-primary-1: #FFF482;
 $color-primary-2: #FFF158;
@@ -47,6 +28,25 @@ $color-secondary-2-1: #7E7CD5;
 $color-secondary-2-2: #5855C1;
 $color-secondary-2-3: #1E1CA2;
 $color-secondary-2-4: #14127D;
+/** fixed variables reused across other modules**/
+$color-brand: $color-primary-0;
+$color-page-background: lighten($color-primary-1,30%);
+$color-text: $color-violet-dark;
+$color-link: $color-secondary-1-0;
+$color-link-visited: $color-secondary-2-0;
+$color-link-hover: $color-blue-light;
+$color-link-active: $color-blue-light;
+$color-headline: $color-text;
+
+// SASS style sheet */
+// Palette color codes */
+// Palette URL: http://paletton.com/#uid=31F0u0kpBw0fFJEkXBhv6t0wcmo */
+
+// Feel free to copy&paste color codes to your application */
+
+
+// As hex codes */
+
 
 
 

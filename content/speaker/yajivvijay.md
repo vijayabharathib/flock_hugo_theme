@@ -1,12 +1,12 @@
 ---
 draft: true
-name: "Vijayabharathi Balasubramanian"
+name: "Yajiv Alas"
 date: "2018-02-12T10:00:00+05:30"
 publishdate: "2018-01-26T10:00:00+05:30"
-speaker: "vijayabharathib"
+speaker: "yajivvijay"
 ---
 
-# Vijayabharathi Balasubramanian
+# Yajiv Alas
 
 ## Bio
 

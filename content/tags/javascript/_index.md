@@ -1,5 +1,0 @@
----
-title: sweetjs
----
-
-## Javascript Articles

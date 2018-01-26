@@ -18,7 +18,7 @@
         }
     },
     "scripts": {
-        "style": "node-sass -r themes/flock/src/scss -o themes/statue/static/css --importer node_modules/node-sass-import",
+        "style": "node-sass -r themes/flock/src/scss -o themes/flock/static/css --importer node_modules/node-sass-import",
         "watch": "npm-watch",
         "test": "testcafe chrome test/sw_test.js"
     }

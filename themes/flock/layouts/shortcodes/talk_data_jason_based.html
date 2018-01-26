@@ -1,0 +1,11 @@
+{{ $talk := index .Site.Data.talks (.Get 0) }}
+<section>
+<header><h3>{{ $talk.title }}</h3></header>
+<p>{{ $talk.description | markdownify }}</p>
+{{ range (where .Site.Pages ".Params.speaker" $talk.speaker) }}
+<footer>
+    <a href="{{ .URL }}">{{ .Params.name }}</a>
+</footer>
+{{ end }}
+</section>
+

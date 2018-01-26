@@ -1,18 +1,13 @@
-baseURL: "https://flock.netlify.com/"
+baseURL: "https://themeflock.netlify.com/"
 languageCode: "en-us"
-title: "Flock Hugo Theme"
+title: "Chennai JS"
 theme: "flock"
 canonifyURLs: true
 paginate: 2
 pygmentsCodeFences: true
 pygmentsUseClasses: true
 pygmentsUseClassic: true
-menu:
-  main:
-      - Name: "about"
-        Identifier: "about"
-        URL: "/page/about/"
-        weight: 220
+
 
 categories: [
   "HTML",

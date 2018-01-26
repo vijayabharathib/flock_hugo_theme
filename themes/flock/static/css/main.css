@@ -1,3 +1,4 @@
+/** palleteon **/
 /** fixed variables reused across other modules**/
 * {
   box-sizing: border-box; }
@@ -8,8 +9,8 @@
 html {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   height: 100%;
-  background-color: #223;
-  color: #bbc;
+  background-color: white;
+  color: #223;
   font-size: 18px; }
 
 @media (min-width: 40em) {
@@ -25,7 +26,7 @@ html {
 h1, h2, h3, h4, h5, h6 {
   font-family: Georgia, Times, serif;
   font-weight: 700;
-  color: #bbc; }
+  color: #223; }
 
 h1 {
   font-size: 2em; }
@@ -42,11 +43,11 @@ h4 {
   margin: 2em 0 1em 1em; }
 
 a, a h1, a h2, a h3, a h4, a h6, a h5 {
-  color: #cf9;
+  color: #AA22A4;
   text-decoration: none; }
 
 a:visited, a:visited h1, a:visited h2, a:visited h3, a:visited h4, a:visited h6, h5 a:visited {
-  color: #fc6; }
+  color: #3B39B2; }
 
 a:hover, a:hover h1, a:hover h2, a:hover h3, a:hover h4, a:hover h5, h6 a:hover {
   color: #adf;
@@ -119,12 +120,13 @@ pre {
   grid-area: footer; }
 
 .site-header {
-  border-bottom: 5px solid #c04;
+  border-bottom: 5px solid #FFEE33;
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  flex-direction: column; }
+  flex-direction: column;
+  background: #FFEE33; }
 
 .site-logo {
   display: flex;
@@ -277,11 +279,11 @@ a.c-nav-link {
 
 .side-bar {
   padding: 10px;
-  background: #112;
+  background: white;
   border-left: 1px solid #334; }
 
 .site-footer {
-  border-top: 0.5em solid #c04;
+  border-top: 0.5em solid #FFEE33;
   margin-top: 30px;
   padding: 10px;
   text-align: center;
@@ -290,7 +292,7 @@ a.c-nav-link {
 
 blockquote,
 pre, .footer_card {
-  background: rgba(255, 255, 255, 0.1);
+  background: #FFF482;
   padding: 10px;
   border-radius: 3px;
   margin: 10px auto 0 auto;
